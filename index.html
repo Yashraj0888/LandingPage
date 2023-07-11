@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav_logo">Nav</a>
+            <ul class="nav_items">
+                <li class="nav_items">
+                    <a href="#" class="nav_link">Home</a>
+                    <a href="#" class="nav_link">Product</a>
+                    <a href="#" class="nav_link">Services</a>
+                    <a href="#" class="nav_link">Contact</a>
+                </li>              
+            </ul>
+            <button class="button" id="form-open">Login</button>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="form_container">
+            <i class="uil uil-times  form_close"></i>
+            <!-- login form -->
+            <div class="form login_form">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your email">  
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter Your Password">  
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash hide"></i>
+                    </div>
+
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forget_pw">Forget Password?</a>
+                    </div>
+                    <button class="button">Login Now</button>
+
+                    <div class="login_signup">
+                        Don't have an account? <a href="#" id="signup">singup</a>
+                    </div>
+                </form>
+            </div>
+            <!-- Singup page -->
+            <div class="form signup_form">
+                <form action="">
+                    <h2>Signup</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your email">  
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter Your Password">  
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm your password">  
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash hide"></i>
+                    </div>
+                    <button class="button" i>Signup Now</button>
+
+                    <div class="login_signup">
+                        Already have an account? <a href="#" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

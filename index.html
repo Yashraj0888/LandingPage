@@ -13,7 +13,7 @@
     <!-- header -->
     <header class="header">
         <nav class="nav">
-            <a href="#" class="nav_logo">Nav</a>
+            <a href="#" class="nav_logo">Gadget Hub</a>
             <ul class="nav_items">
                 <li class="nav_items">
                     <a href="#" class="nav_link">Home</a>
@@ -22,10 +22,13 @@
                     <a href="#" class="nav_link">Contact</a>
                 </li>              
             </ul>
-            <button class="button" id="form-open">Login</button>
-        </nav>
+            <div>
+                <button class="button" id="form-open1">Signup</button>
+                <button class="button" id="form-open">Login</button>
+        
+            </div>
+           </nav>
     </header>
-
     <section class="home">
         <div class="form_container">
             <i class="uil uil-times  form_close"></i>
@@ -50,15 +53,17 @@
                         </span>
                         <a href="#" class="forget_pw">Forget Password?</a>
                     </div>
-                    <button class="button">Login Now</button>
+                    <div class="btn_animation">
+                        <button class="button" i>Login</button>
+                    </div>
 
                     <div class="login_signup">
                         Don't have an account? <a href="#" id="signup">singup</a>
                     </div>
                 </form>
             </div>
-            <!-- Singup page -->
-            <div class="form signup_form">
+             <!-- Singup page -->
+             <div class="form signup_form">
                 <form action="">
                     <h2>Signup</h2>
                     <div class="input_box">
@@ -75,15 +80,21 @@
                         <i class="uil uil-lock password"></i>
                         <i class="uil uil-eye-slash hide"></i>
                     </div>
-                    <button class="button" i>Signup Now</button>
+                    <div class="btn_animation">
+                        <button class="button" i>Signup Now</button>
+                    </div>
+                    
 
                     <div class="login_signup">
                         Already have an account? <a href="#" id="login">Login</a>
                     </div>
                 </form>
             </div>
+            
         </div>
     </section>
+
+   
     <script src="index.js"></script>
 </body>
 
